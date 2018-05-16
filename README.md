@@ -1,2 +1,2 @@
 # caipiao
-Markov,Bayes,Statics
+svm,Bayes,Statics
