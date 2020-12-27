@@ -40,7 +40,7 @@ def user(a):
             decision_function_shape=None, degree=3, gamma='auto', kernel='rbf',
             max_iter=-1, probability=True, random_state=None, shrinking=True,
             tol=0.001, verbose=False)    
-        name='鼠牛虎兔龙蛇马羊猴鸡狗猪'
+        name='abcdefghijkl'
         xmaxloc=argsort(x,axis=1)[:,-1]
         xminloc=argsort(x,axis=1)[:,0]
         xt=amax(x, axis=1)
