@@ -6,7 +6,7 @@ Created on Sat Aug 26 09:35:22 2017
 """
 def mmn(yuce,yuce0,shengxnum,zhongjnum,a,p,dayin,yanchi):                   
     import numpy as np
-    name='鼠牛虎兔龙蛇马羊猴鸡狗猪'
+    name='abcdefghijkl'
     pre=np.zeros((1,yuce0-yuce+1),dtype='int64')
     js=-1
     for yuce1 in np.arange(yuce,yuce0+1,1):
