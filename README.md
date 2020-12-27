@@ -1,2 +1,2 @@
 # caipiao
-svm,Bayes,Statics
+SVM,Bayes,并行计算
