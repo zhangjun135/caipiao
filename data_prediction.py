@@ -108,7 +108,7 @@ if __name__=="__main__":
     l=[]
     for zjnumc in zjnum:
             l+=zjnumc
-    name='鼠牛虎兔龙蛇马羊猴鸡狗猪'
+    name='abcdefghijkl'
     if yuce is not 0:
-        print('实际生肖——',[name[s-1] for s in a[yuce-1]])
+        print('实际——',[name[s-1] for s in a[yuce-1]])
     print ('预测:',Counter(l),'统计总数',len(l),'计算次数',times)
